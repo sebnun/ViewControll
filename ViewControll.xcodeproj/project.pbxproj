@@ -12,6 +12,8 @@
 		9E46E0DD1CEBDD7D005B3D63 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E46E0DB1CEBDD7D005B3D63 /* MainMenu.xib */; };
 		9E9EA7871CEBDEE400C85206 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9EA7851CEBDEE400C85206 /* ImageViewController.swift */; };
 		9E9EA7881CEBDEE400C85206 /* ImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E9EA7861CEBDEE400C85206 /* ImageViewController.xib */; };
+		9E9EA78B1CEBE7D000C85206 /* NerdTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9EA7891CEBE7D000C85206 /* NerdTabViewController.swift */; };
+		9E9EA78C1CEBE7D000C85206 /* NerdTabViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E9EA78A1CEBE7D000C85206 /* NerdTabViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		9E46E0DE1CEBDD7D005B3D63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9E9EA7851CEBDEE400C85206 /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 		9E9EA7861CEBDEE400C85206 /* ImageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageViewController.xib; sourceTree = "<group>"; };
+		9E9EA7891CEBE7D000C85206 /* NerdTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NerdTabViewController.swift; sourceTree = "<group>"; };
+		9E9EA78A1CEBE7D000C85206 /* NerdTabViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NerdTabViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 			isa = PBXGroup;
 			children = (
 				9E46E0D71CEBDD7D005B3D63 /* AppDelegate.swift */,
+				9E9EA7891CEBE7D000C85206 /* NerdTabViewController.swift */,
+				9E9EA78A1CEBE7D000C85206 /* NerdTabViewController.xib */,
 				9E46E0D91CEBDD7D005B3D63 /* Assets.xcassets */,
 				9E46E0DB1CEBDD7D005B3D63 /* MainMenu.xib */,
 				9E9EA7851CEBDEE400C85206 /* ImageViewController.swift */,
@@ -123,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E46E0DA1CEBDD7D005B3D63 /* Assets.xcassets in Resources */,
+				9E9EA78C1CEBE7D000C85206 /* NerdTabViewController.xib in Resources */,
 				9E9EA7881CEBDEE400C85206 /* ImageViewController.xib in Resources */,
 				9E46E0DD1CEBDD7D005B3D63 /* MainMenu.xib in Resources */,
 			);
@@ -136,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E9EA7871CEBDEE400C85206 /* ImageViewController.swift in Sources */,
+				9E9EA78B1CEBE7D000C85206 /* NerdTabViewController.swift in Sources */,
 				9E46E0D81CEBDD7D005B3D63 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

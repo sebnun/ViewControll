@@ -22,7 +22,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         columnViewController.title = "Column"
         columnViewController.image = NSImage(named: NSImageNameColumnViewTemplate)
         
-        let tabViewController = NSTabViewController()
+        let tabViewController = NerdTabViewController()
         tabViewController.addChildViewController(flowViewController)
         tabViewController.addChildViewController(columnViewController)
         
